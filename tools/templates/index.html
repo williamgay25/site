@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tools</title>
+    <title>QR Code Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .form-container input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        .form-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1>Available Tools:</h1>
-    <ul>
-        <li><a href="/qrcode">QR Code Generator</a></li>
-        <li><a href="/removebg">Background Removal</a></li>
-    </ul>
+    <h1>QR Code Generator</h1>
+    <div class="form-container">
+        <form action="/qrcode" method="post">
+            <label for="website_name">Website Name:</label>
+            <input type="text" id="website_name" name="website_name" required>
+            <input type="submit" value="Generate QR Code">
+        </form>
+    </div>
+    {% if qrcode %}
+    <div class="qrcode-container">
+        <h2>Generated QR Code</h2>
+        <img src="{{ qrcode }}" alt="QR Code">
+        <a href="{{ qrcode }}" download="qrcode.png">Download QR Code</a>
+    </div>
+    {% endif %}
 </body>
 </html>

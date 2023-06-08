@@ -1,7 +1,6 @@
 import os
 import zipfile
 import tempfile
-import shutil
 from PIL import Image
 
 def reduce_image_quality(image_path, quality=90):
