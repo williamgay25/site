@@ -18,8 +18,8 @@ class Tools:
         qr.add_data(text)
         qr.make(fit=True)
         image = qr.make_image(fill_color="black", back_color="white")
-        filename = 'qrcode.png'
-        save_path = os.path.join('/tmp', filename)
+        filename = 'tmp/qrcode.png'
+        save_path = os.path.join(os.getcwd(), filename)
         image.save(save_path)
         return save_path
     
@@ -56,9 +56,6 @@ def compress_epub(input_file_path, output_file_path):
         print("The compressed file is still more than 25MB.")
     else:
         print(f"Compression successful. The compressed file is located at: {output_file_path}")
-
-# example usage
-compress_epub("Liftoff.epub", "output.epub")
 
 def remove_background(image_path):
     # Read the image
