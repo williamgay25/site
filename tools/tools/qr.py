@@ -12,6 +12,6 @@ def generate_qr_code(text):
     qr.make(fit=True)
     image = qr.make_image(fill_color="black", back_color="white")
     filename = 'qrcode.png'
-    save_path = os.path.join('static', filename)
+    save_path = os.path.join('/tmp', filename)
     image.save(save_path)
     return save_path
