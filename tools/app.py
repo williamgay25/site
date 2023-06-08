@@ -17,6 +17,22 @@ def qrcode_generator():
         return redirect(url_for('download', filename=filename))
     return render_template('qrcode.html')
 
+@app.route('/background', methods=['GET', 'POST'])
+def background_remover():
+    if request.method == 'POST':
+        image = request.files['image']
+        image.save('test.JPEG')
+        return redirect(url_for('download', filename='final.jpg'))
+    return render_template('background.html')
+
+@app.route('/compress', methods=['GET', 'POST'])
+def book_compressor():
+    if request.method == 'POST':
+        image = request.files['image']
+        image.save('test.JPEG')
+        return redirect(url_for('download', filename='compressed.jpg'))
+    return render_template('compress.html')
+
 @app.route('/download/<filename>')
 def download(filename):
     return send_file(filename, as_attachment=True)
