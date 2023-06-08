@@ -11,8 +11,9 @@ def index():
 @app.route('/qrcode', methods=['GET', 'POST'])
 def qrcode_generator():
     if request.method == 'POST':
-        text = request.form['text']
+        text = request.form['website_name']
         filename = qr.generate_qr_code(text)
+        print(filename)
         return redirect(url_for('download', filename=filename))
     return render_template('qrcode.html')
 
