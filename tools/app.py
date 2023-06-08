@@ -1,5 +1,6 @@
 import qrcode
 from flask import Flask, render_template, request, redirect, url_for, send_file
+from tools import qr
 
 app = Flask(__name__)
 
@@ -11,17 +12,7 @@ def index():
 def qrcode_generator():
     if request.method == 'POST':
         text = request.form['text']
-        qr = qrcode.QRCode(
-            version=1,
-            error_correction=qrcode.constants.ERROR_CORRECT_H,
-            box_size=10,
-            border=4,
-        )
-        qr.add_data(text)
-        qr.make(fit=True)
-        image = qr.make_image(fill_color="black", back_color="white")
-        filename = 'qrcode.png'
-        image.save(filename)
+        filename = qr.generate_qr_code(text)
         return redirect(url_for('download', filename=filename))
     return render_template('qrcode.html')
 
