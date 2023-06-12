@@ -6,7 +6,6 @@
   }
   
   body {
-    
     line-height: 1.6;
     background-color: #fff;
   }
@@ -76,3 +75,5 @@
   ul li a:hover {
     text-decoration: underline;
   }
+  
+  
