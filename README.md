@@ -1,1 +1,1 @@
-Adding a readme to start thinking about how I am going to better restructure this home page for consistency. 
+# home site
