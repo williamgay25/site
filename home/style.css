@@ -6,20 +6,24 @@
   }
   
   body {
-    
     line-height: 1.6;
     background-color: #fff;
   }
   
   header {
+    display: flex;
     padding: 20px;
+  }
+
+  header img {
+    height: 30px;
+    margin-right: 10px;
   }
   
   header h1 {
-    font-size: 20px;
-    text-transform: none;
+    font-size: 25px;
   }
-  
+
   nav ul {
     list-style: none;
   }
@@ -32,7 +36,6 @@
   nav ul li a {
     color: #000;
     text-decoration: none;
-    text-transform: none;
   }
   
   section {
@@ -43,7 +46,6 @@
   section h2 {
     font-size: 18px;
     margin-bottom: 10px;
-    text-transform: none;
   }
   
   section ul {
@@ -70,7 +72,6 @@
   ul li a {
     color: #000;
     text-decoration: none;
-    text-transform: none;
   }
   
   ul li a:hover {
