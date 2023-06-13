@@ -13,6 +13,8 @@
   header {
     display: flex;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   header img {
@@ -58,10 +60,6 @@
   
   footer {
     padding-left: 20px;
-  }
-  
-  footer ul {
-    list-style: none;
   }
   
   footer ul li {
