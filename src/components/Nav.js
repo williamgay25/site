@@ -12,7 +12,7 @@ function Nav() {
             <li><a href="https://tools.williamgay.me">tools</a></li>
             <li><a href="https://github.com/williamgay25">github</a></li>
             <li><a href="https://twitter.com/williamgay25">twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/williamegay/">linkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/williamegay/">linkedin</a></li>
           </ul>
         </nav>
     </div>
