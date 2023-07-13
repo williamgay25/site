@@ -30,7 +30,7 @@ function Home() {
         <section>
           <h2>currently hacking on</h2>
           <ul>
-            <li><a href="https://github.com/williamgay25/micrograd"></a> - building a neural net library from scratch.</li>
+            <li><a href="https://github.com/williamgay25/micrograd">micrograd</a> - building a neural net library from scratch.</li>
             <li><a href="https://github.com/williamgay25/makemore">makemore</a> - working on a character level language model.</li>
             <li><a href="https://github.com/williamgay25/toolbox">toolbox</a> - building a hub for tools i use too often.</li>
             <li><a href="https://github.com/williamgay25/crawler">crawler</a> - basic python web crawler. mine the data!!</li>
