@@ -21,9 +21,9 @@ function Home() {
         <section>
           <h2>wannabe founder</h2>
           <ul>
-            <li><a href="https://tempus-ex.com">tempus ex machina</a> - worked on a fan engagement startup with the nfl. wrote some react native that didn't work.</li>
-            <li><a href="https://findflayr.com">flayrai</a> - capstone project turned accelerator. worked on restaurant hiring and learned a lot.</li>
-            <li><a href="https://iterate.tools">iterate.tools</a> - building a AI-powered website builder. sign up today!</li>
+            <li><a href="https://tempus-ex.com">tempus ex machina</a> - worked on a fan engagement startup with the nfl. wrote some react native.</li>
+            <li><a href="https://findflayr.com">flayrai</a> - capstone project turned startup accelerator. worked on restaurant hiring and learned a lot.</li>
+            <li><a href="https://iterate.tools">iterate.tools</a> - building an AI-powered website builder. sign up today!</li>
           </ul>
         </section>
 
