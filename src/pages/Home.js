@@ -13,8 +13,8 @@ function Home() {
           <h2>previously</h2>
           <ul>
             <li>industrial engineer @ <a href="https://www.gatech.edu">georgia tech</a> - a lot of statistics and data modeling.</li>
-            <li>investments analyst @ <a href="https://homrichberg.com">homrich berg</a> - first employee to download python on a work computer.</li>
-            <li>investment banking analyst @ <a href="https://www.croft-bender.com">croft &amp; bender</a> - wrote python and vba to automate most of my work.</li>
+            <li>summer analyst @ <a href="https://homrichberg.com">homrich berg</a> - first employee to download python on a work computer.</li>
+            <li>investment banking summer analyst @ <a href="https://www.croft-bender.com">croft &amp; bender</a> - wrote python and vba to automate most of my work.</li>
           </ul>
         </section>
 
