@@ -23,7 +23,7 @@ function Home() {
           <ul>
             <li><a href="https://tempus-ex.com">tempus ex machina</a> - worked on a fan engagement startup with the nfl. wrote some react native that didn't work.</li>
             <li><a href="https://findflayr.com">flayrai</a> - capstone project turned accelerator. worked on restaurant hiring and learned a lot.</li>
-            <li><a href="https://iterate.tools">iterate.tools</a> - sign up today and come turn your words into a website!</li>
+            <li><a href="https://iterate.tools">iterate.tools</a> - building a AI-powered website builder. sign up today!</li>
           </ul>
         </section>
 
@@ -33,7 +33,7 @@ function Home() {
             <li><a href="https://github.com/williamgay25/micrograd">micrograd</a> - building a neural net library from scratch.</li>
             <li><a href="https://github.com/williamgay25/makemore">makemore</a> - working on a character level language model.</li>
             <li><a href="https://github.com/williamgay25/toolbox">toolbox</a> - building a hub for tools i use too often.</li>
-            <li><a href="https://github.com/williamgay25/crawler">crawler</a> - basic python web crawler. mine the data!!</li>
+            <li><a href="https://github.com/williamgay25/crawler">crawler</a> - basic python web crawler.</li>
           </ul>
         </section>
     </div>
