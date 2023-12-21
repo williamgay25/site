@@ -30,7 +30,7 @@ function Home() {
           <h2>wannabe founder</h2>
           <ul>
             <li><a href="https://github.com/flayrai">flayrai</a> - capstone project turned startup accelerator. worked on restaurant hiring and learned a lot.</li>
-            <li><a href="https://github.com/iteratedottools">iterate.tools</a> - building an AI-powered website builder. sign up today!</li>
+            <li><a href="https://github.com/iteratedottools">iterate.tools</a> - worked on an AI-powered website builder.</li>
           </ul>
         </section>
 
